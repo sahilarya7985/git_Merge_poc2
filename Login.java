@@ -3,7 +3,7 @@ public class Login {
     static String password = "123456";
 
     public static boolean checkUser() {
-        return true;
+        return username.equals("admin");
     }
 
     public static void main(String[] args) {

@@ -1,8 +1,12 @@
 public class Login {
-    public static void main(String[] args){
+    static String username = "admin";
+    static String password = "123456";
 
-        System.out.print("Logging Successful");
+    public static boolean checkUser() {
+        return true;
+    }
 
-
+    public static void main(String[] args) {
+        System.out.println(checkUser());
     }
 }
